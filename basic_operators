@@ -1,0 +1,7 @@
+cost_pineapple=50
+cost_banana=4
+cost_watermelon=23
+cost_basket=1
+
+total=$(($cost_pineapple + $cost_banana + $cost_watermelon + $cost_basket))
+echo "total is $total"
